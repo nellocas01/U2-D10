@@ -1,9 +1,132 @@
-navbar nn ha colore 2 blocco tvshow una sezione poi 3 blocco con 2 div trending
-now e caroseeloo poi 4 poi 5 usare i gatter nel carosello footer ha un
-posizionamento (flex oppure griglia) ha un contenitore fuori e un pacchetto
-interno suddiviso in colonne (sono delle griglie) la orifle page ha un pacchetto
-fatto da vari contenitori ci sono dropdown, checkbox , icona matitae creare bg
-bordo e ombra, usa flex o griglia per allineare collegare l'edit profile con un
-tag a facendo un dropdown per l'extra è uguale all'edit profile utilizza
-horizontal rules per gli hr fare tutto responsive attenzione al carosello e
-magari cambiarlo, metterlo solo alla fine
+<!--
+    navbar nn ha colore 2 blocco tvshow una sezione poi 3 blocco con 2 div
+    trending now e caroseeloo poi 4 poi 5 usare i gatter nel carosello footer ha
+    un posizionamento (flex oppure griglia) ha un contenitore fuori e un
+    pacchetto interno suddiviso in colonne (sono delle griglie) la orifle page
+    ha un pacchetto fatto da vari contenitori ci sono dropdown, checkbox , icona
+    matitae creare bg bordo e ombra, usa flex o griglia per allineare collegare
+    l'edit profile con un tag a facendo un dropdown per l'extra è uguale
+    all'edit profile utilizza horizontal rules per gli hr fare tutto responsive
+    attenzione al carosello e magari cambiarlo, metterlo solo alla fine
+    -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Compito U2-D-10-Casolla-Aniello</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  </head>
+
+  <body>
+      <div class="container-fluid bg-dark text-white px-4">
+
+        <!--NAVBAR-->
+    <nav class="d-flex justify-content-around align-items-start navbar navbar-expand-lg">
+        <div class="d-flex me-auto">
+        <a class="navbar-brand" href="#">
+          <img
+            src="Netflix-assets/assets/netflix_logo.png"
+            alt="netflix-logo"
+            height="40"
+            width="100"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+          <ul class="navbar-nav me-5 mb-2 mb-lg-0 align-content-start">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">TV Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Recently Added</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">My List</a>
+            </li>
+          </ul>
+        </div>
+            <div class="d-flex align-content-end">
+          <form class="d-flex mx-auto align-items-center" role="search">
+            <i class="bi bi-search mx-2"></i>
+            
+                <a class="nav-link mx-2" href="#">KIDS</a>
+              
+              <i class="bi bi-bell-fill mx-2"></i>
+              <div class="dropdown">
+              <img src="Netflix-assets/assets/avatar.png" alt="avatar" height="40" class="dropdown-toggle mx-2" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+              width="50">
+              <!--
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            -->
+                </div>
+            </div>
+          </form>
+        </nav>
+    
+        <!--TV SHOWS-->
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center">
+            <h1 class="navbar-brand m-3 fs-1" href="#">TV Shows</h1>
+            <button class="m-3 p-2 text-white bg-black border border-white">
+                Genres <i class="bi bi-caret-down-fill"></i>
+            </button>
+        </div>
+            <div class="d-flex align-content-end text-white">
+                <button class="d-flex">
+
+                    <i class="bi bi-list" width="100" height="50"></i>
+                
+                
+                <button class="d-flex">
+
+                    <i class="bi bi-grid-2x2-gap"></i>
+                </button>
+                
+            </div>
+            
+          </div>
+        </div>
+
+        <!--TRENDING NOW-->
+        
+
+        <!--WATCH IT AGAIN-->
+
+        <!--NEW RELEASES-->
+
+        <!--FOOTER-->
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
