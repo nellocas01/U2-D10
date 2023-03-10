@@ -26,75 +26,92 @@
             width="100"
           />
         </a>
-        <div>
-          <h1>Edit Profile</h1>
-          <hr />
-        </div>
-        <div>
-          <img
-            src="Netflix-assets/assets/avatar.png"
-            alt="avatar"
-            height="50"
-            class="position-relative mx-2"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-            width="60"
-          />
-          <i class="bi bi-pencil position-absolute bottom-20 right-20"></i>
-        </div>
-        <div>
-          <input type="text" placeholder="Strive Student" class="" />
-          <p>Language:</p>
-          <button class="text-white bg-black border border-white">
-            English <i class="bi bi-caret-down-fill"></i>
-          </button>
-          <hr />
-        </div>
-        <div>
-          <p>Maturity Settings:</p>
-          <button class="text-white bg-secondary">ALL MATURITY RATINGS</button>
-          <p>Show titles of all maturity ratings for this profile.</p>
-          <button class="bg-black text-secondary border border-secondary">
-            EDIT
-          </button>
-          <hr />
-        </div>
-        <div class="form-check">
-          <p>Autoplay controls</p>
-          <input
-            class="form-check-input bg-dark"
-            type="checkbox"
-            value=""
-            id="flexCheckDefault"
-          />
-          <label class="form-check-label" for="flexCheckDefault">
-            Autoplay next episode in a series on all devices.
-          </label>
-        </div>
-        <div class="form-check">
-          <input
-            class="form-check-input bg-dark"
-            type="checkbox"
-            value=""
-            id="flexCheckChecked"
-            checked
-          />
-          <label class="form-check-label" for="flexCheckChecked">
-            Autoplay previews while browsing on all devices.
-          </label>
-          <hr />
-        </div>
-        <div>
-          <button class="bg-white text-black border border-secondary">
-            SAVE
-          </button>
-          <button class="bg-black text-secondary border border-secondary">
-            CANCEL
-          </button>
-          <button class="bg-black text-secondary border border-secondary">
-            DELETE PROFILE
-          </button>
+        <div class="d-flex flex-column align-items-center">
+          <div>
+            <h1>Edit Profile</h1>
+            <hr />
+          </div>
+          <div class="d-flex">
+            <img
+              src="Netflix-assets/assets/avatar.png"
+              alt="avatar"
+              height="50"
+              class="position-relative mx-2"
+              type="button"
+              aria-expanded="false"
+              width="60"
+            />
+            <i class="bi bi-pencil position-absolute bottom-20 right-20"></i>
+          </div>
+          <div class="">
+            <input type="text" placeholder="Strive Student" class="" />
+            <p>Language:</p>
+            <div class="dropdown">
+              <button
+                class="btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                English
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Italian</a></li>
+                <li><a class="dropdown-item" href="#">Espanol</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+            <hr />
+          </div>
+          <div>
+            <p>Maturity Settings:</p>
+            <button class="text-white bg-secondary">
+              ALL MATURITY RATINGS
+            </button>
+            <p>Show titles of all maturity ratings for this profile.</p>
+            <button class="bg-black text-secondary border border-secondary">
+              EDIT
+            </button>
+            <hr />
+          </div>
+          <div class="form-check">
+            <p>Autoplay controls</p>
+            <input
+              class="form-check-input bg-dark"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Autoplay next episode in a series on all devices.
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input bg-dark"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Autoplay previews while browsing on all devices.
+            </label>
+            <hr />
+          </div>
+          <div>
+            <button class="bg-white text-black border border-secondary">
+              SAVE
+            </button>
+            <button class="bg-black text-secondary border border-secondary">
+              CANCEL
+            </button>
+            <button class="bg-black text-secondary border border-secondary">
+              DELETE PROFILE
+            </button>
+          </div>
         </div>
       </div>
     </div>
